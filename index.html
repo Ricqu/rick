@@ -23,9 +23,16 @@ body{background-color: red;}
 	 
 	 const recongnition = new SpeechRecongnition();
 	 recongnition.interimReuls = true;
-     const transcript_element = document.getElementById("transcript")
-		 const Talk_button = document.getElementById("start")
-		 const end_button = document.getElementById
+     const transcript_element = document.getElementById("transcript");
+		 const Talk_button = document.getElementById("start");
+		 const end_button = document.getElementById("end"); 
+
+		 let p = document.createElement("p");
+		 transcript_element.appendChild(p);
+
+		recongnition.addEventListener("result", (e) =>{
+			 const transcript =
+		})
 	 </script>
 		</body>
 </html>
